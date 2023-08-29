@@ -45,7 +45,7 @@ const Nav = () => {
           <ul
             className={`${
               isNavOpen ? "block" : "hidden"
-            } max-lg:block-1 block justify-center items-center gap-16 pt-1 fixed `}
+            } max-lg:block-1 block justify-center items-center gap-16 pt-2 fixed`}
           >
             {navLinks.map((item) => (
               <li key={item.label} className="hover:bg-red-500">
